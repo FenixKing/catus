@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --Primary-Color: #4200FF;
+    --Primary-BackgroundColor: #F8F8F8;
+    --Text-White: #fff;
+}
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.DefaultTemplate {
+    width: 100%;
+    padding-inline: 80px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1%;
+}
+
+main{
+    padding-block: 2%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    padding-block: 1%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1440px){
+    .DefaultTemplate {
+        width: 1440px;
+    }
+}

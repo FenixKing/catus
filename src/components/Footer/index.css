@@ -1,0 +1,76 @@
+footer {
+    background: #404040;
+}
+
+footer .Footer{
+    width: 100%;
+    box-sizing: border-box;
+  
+    display: grid;
+    gap: 3%;
+  
+    grid-template-columns: 1fr 1fr 1fr; 
+    box-sizing: border-box;
+    padding-block: 3%;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Bar{
+    background-color: #CFCFCF;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+
+.Bar div{
+    background-color: #32BCAD;
+    height: 1px;
+    width: 40%;
+}
+
+.Faq {
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    font-size: 15px;
+    font-weight: 200;
+}
+.Faq p {
+    margin-bottom: 2%;
+}
+
+section{
+    gap: 20px;
+}
+
+section ul {
+    display: flex;
+    gap: 5%;
+}
+
+.Whatsapp{
+    margin-block: 10%;
+}
+
+.Time{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.Time span {
+    margin-bottom: 2%;
+}
+
+.Time p {
+    font-size: 15px;
+    font-weight: 200;
+}

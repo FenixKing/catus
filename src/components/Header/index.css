@@ -1,0 +1,79 @@
+.Header{
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.Header .DefaultTemplate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BlockLogo{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar a{
+    cursor: pointer;
+    margin-inline: 1vw;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.BlockLogo h1{
+    font-size: 28px;
+}
+
+header .BlockSearch {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+header .Search {
+    display: flex;
+}
+
+header .Search input {
+    background: none;
+    border-bottom: solid black 1px; 
+    margin-right: 1%;
+}
+
+::-webkit-input-placeholder {
+    color: #8C8C8C;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #8C8C8C; 
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #8C8C8C; 
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #8C8C8C;  
+ }
+
+header .Search img {
+    width: 10%;
+    cursor: pointer;
+}
+
+header .Cart img{
+    width: 60%;
+    cursor: pointer;
+}

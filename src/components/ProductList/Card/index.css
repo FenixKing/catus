@@ -1,0 +1,44 @@
+.CardHead{
+    font-size: 15px;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+
+.CardHead h3 {
+    margin-top: 3%;
+}
+
+.CardBody {
+    font-size: 15px;
+    padding-bottom: 15%;
+}
+
+.CardBody span {
+    text-decoration: line-through;
+    margin-bottom: 50px;
+}
+
+.CardBody strong {
+    font-size: 15px;
+    color: #484848;
+}
+
+.CardBody h2 {
+    margin-block: 3%;
+}
+
+.CardBody h2 strong{
+    font-size: 22px;
+    color: #484848;
+}
+button {
+    font-weight: 800;
+    border-radius: 4px;
+    background: rgb(164, 190, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-block: 20px;
+    box-sizing: border-box;
+}

@@ -29,6 +29,17 @@ export const ProductList = () => (
                 modules={[Navigation, A11y]}
                 spaceBetween={50}
                 slidesPerView={4}
+                breakpoints={{
+                    350: {
+                      slidesPerView: 1,
+                    },
+                    800: {
+                      slidesPerView: 2,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                    },
+                  }}
                 navigation={{
                     nextEl: '.review-swiper-button-next',
                     prevEl: '.review-swiper-button-prev',

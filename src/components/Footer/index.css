@@ -74,3 +74,20 @@ section ul {
     font-size: 15px;
     font-weight: 200;
 }
+
+@media (max-width: 850px){
+    footer .Footer{
+        display: flex;
+        flex-direction: column;
+        gap: 50%;
+    }
+
+    .Footer section{
+        margin-bottom: 7%;
+    }
+    .Time {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7%;
+    }
+}

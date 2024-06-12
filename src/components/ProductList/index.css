@@ -69,3 +69,9 @@
 .ProductList .Title {
     font-size: 28px;
 }
+
+@media (max-width: 800px){
+    .ProductList .Title {
+        font-size: 20px;
+    }
+}

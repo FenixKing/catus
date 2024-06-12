@@ -51,3 +51,8 @@ footer{
         width: 1440px;
     }
 }
+@media (max-width: 700px) {
+    .DefaultTemplate{
+        padding-inline: 30px;
+    }
+}
